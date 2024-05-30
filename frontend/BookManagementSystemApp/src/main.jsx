@@ -6,10 +6,10 @@ import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min'
 
-import CreateBook from './components/CreateBook.js'
-import ShowBookList from './components/ShowBookList.js'
-import ShowBookDetails from './components/ShowBookDetails.js'
-import UpdateBookInfo from './components/UpdateBookInfo.js'
+import CreateBook from './components/CreateBook.jsx'
+import ShowBookList from './components/ShowBookList.jsx'
+import ShowBookDetails from './components/ShowBookDetails.jsx'
+import UpdateBookInfo from './components/UpdateBookInfo.jsx'
 
 const router=createBrowserRouter([
   {path:'/',element:<ShowBookList/>},
